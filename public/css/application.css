@@ -1,0 +1,161 @@
+.main-container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+th {
+  text-align: left;
+}
+
+.active-1 {
+
+}
+
+.active-2 {
+}
+
+.finish {
+  background-color: black;
+}
+  tr { 
+    width: 100%;
+  }
+
+  td {
+    height: 70px;
+    width: 70px;
+  }
+
+  img {
+    height: 75px;
+    width: 75px;
+    border-radius: 25px;
+    display: block;
+  }
+
+  img:hover {
+    border: 8px solid;
+    border-color: 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+  }
+
+  #player-1-choose{
+    width: 350px;
+    margin: 0;
+    float: left;
+  }
+
+  #player-2-choose{
+    width: 350px;
+    margin: 0;
+    float: right;
+
+  }
+
+  .columns{
+    -moz-column-count:3; /* Firefox */
+    -webkit-column-count:3; /* Safari and Chrome */
+    column-count:3;
+  }
+
+  .button{
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  button{
+    height: 100px;
+    width: 400px;
+    border-radius: 10px;
+  }
+
+  .racer-table{
+    display: none;
+  }
+
+
+.button {
+    
+    -moz-box-shadow:inset 0px 34px 0px -15px #b54b3a;
+    -webkit-box-shadow:inset 0px 34px 0px -15px #b54b3a;
+    box-shadow:inset 0px 34px 0px -15px #b54b3a;
+    
+    background-color:#a73f2d;
+    
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    
+    border:1px solid #241d13;
+    
+    display:inline-block;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size:28px;
+    font-weight:bold;
+    padding:13px 32px;
+    text-decoration:none;
+    
+    text-shadow:0px -1px 0px #7a2a1d;
+    
+}
+.button:hover {
+    
+    background-color:#b34332;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+
+.selected-player{
+  font-size: 40px;
+  text-align: center;
+}
+
+#vs{
+  display: none;
+  font-size: 60px;
+  width: 100px;
+  position: relative;
+  left: 420px;
+  top: -265px;
+}
+
+#restart, #newgame {
+    
+    -moz-box-shadow:inset 0px 34px 0px -15px #b54b3a;
+    -webkit-box-shadow:inset 0px 34px 0px -15px #b54b3a;
+    box-shadow:inset 0px 34px 0px -15px #b54b3a;
+    
+    background-color:#a73f2d;
+    
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    
+    border:1px solid #241d13;
+    
+    display:inline-block;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size:28px;
+    font-weight:bold;
+    padding:13px 32px;
+    text-decoration:none;
+    
+    text-shadow:0px -1px 0px #7a2a1d;
+    
+}
+#restart:hover, #newgame:hover {
+    
+    background-color:#b34332;
+}
+#restart:active, #newgame:active {
+    position:relative;
+    top:1px;
+}
+
+.game-end-buttons{
+  margin-top: 30px;
+}
