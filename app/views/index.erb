@@ -53,17 +53,17 @@
 
   </div>
 
-  <p id="vs"> vs. </p>
-
-  <button class='button' style='display:none'>Start Game!</button>
+<!--   <p id="vs"> vs. </p>
+ -->
+  <button class='start-game-button' style='display:none'>Start Game!</button>
 
   <table class="racer_table" >
     <tr id="player1_strip">
       <td class="active-1"> </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td id="1"></td>
+      <td id="2"></td>
+      <td id="3"></td>
+      <td id="4"></td>
       <td></td>
       <td></td>
       <td></td>
@@ -75,7 +75,7 @@
       <td></td>
     </tr>
     <tr id="player2_strip">
-      <td class="active-2"</td>
+      <td class="active-2"></td>
         <td></td>
         <td></td>
         <td></td>
@@ -90,8 +90,10 @@
         <td></td>
       </tr>
     </table>
-    <div class="game-end-buttons">
-      <button style='display:none' id='restart' style='display:none'>Restart Game!</button>
-      <button style='display:none' id='newgame'>New Players!</button>
+
+    <div id="countdown"></div>
+    <div class="game-end-buttons" style="display:none">
+      <button id='restart' >Restart Game!</button>
+      <button id='newgame'>New Players!</button>
     </div>
   </div>
